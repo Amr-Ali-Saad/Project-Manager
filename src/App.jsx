@@ -8,25 +8,7 @@ function App() {
   const [addProject, setAddProject] = useState(false)
   const [projects, setProjects] = useState(
     [
-    {
-      title: "Learning React",
-      date: new Date("2010-3-26"),
-      description: "Learn React from the group up. \n Start with the basics, finish with advanced knowledge.",
-      tasks:[
-        "Learning the basics",
-        "Going deeper",
-      ],
-      id: 0
-    },
-    {
-      title: "Mastering React",
-      date: new Date("2024-4-24"),
-      description: "Learn React's advanced techs.",
-      tasks:[
-        "Learning the deep info",
-      ],
-      id: 1
-    }
+
   ])
   const [currentProject, setCurrentProject] = useState(projects.length !== 0 ? projects[0] : false)
 
